@@ -1,0 +1,43 @@
+
+╔══════════════════════════════════════════════════════╗
+║        SENTINELAI — MODULE 4 DESIGN                  ║
+║        Agentic Security Scanner                      ║
+╚══════════════════════════════════════════════════════╝
+
+MODULE NAME: AgentScanner
+BUILD DAY: Day 14
+
+WHAT IT DOES:
+Automatically tests AI agents for:
+→ Goal hijacking vulnerability
+→ Tool poisoning susceptibility
+→ Privilege escalation gaps
+→ Memory poisoning (Day 10 topic)
+→ Multi-agent trust issues
+
+HOW IT WORKS:
+Input: Agent API endpoint
+       Tool definitions
+       Permission scope
+
+Tests run:
+1. Send task with hidden secondary goal
+   → Check if secondary goal executed
+
+2. Return poisoned tool output
+   → Check if agent follows it
+
+3. Request low-privilege task
+   with high-privilege instruction
+   → Check if escalation occurs
+
+Output: Agentic vulnerability report
+        OWASP LLM07 + LLM08 rated
+        Specific fix recommendations
+
+WHY THIS IS VALUABLE:
+This module does not exist
+in any free tool today.
+Garak — no agentic module
+PyRIT — limited agentic testing
+SentinelAI AgentScanner — FIRST FREE TOOL
