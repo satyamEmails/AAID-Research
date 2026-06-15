@@ -123,3 +123,34 @@ in this prompt" to "what is this prompt trying to achieve"
 ## Open Research Question
 Can indirect extraction through negation be 
 systematically exploited? What are its limits?
+# AAID Research — Satyam Kumar Singh (SatyamGenSys)
+
+**Adversarial AI Infrastructure Defense**
+Empirical research on the intersection of prompt injection 
+attacks and cloud infrastructure security.
+
+## Research Focus
+
+S1∩S2: How AI agents with cloud permissions become 
+attack vectors through prompt injection — and why 
+current cloud monitoring tools cannot detect it.
+
+## Experiments
+
+| # | Finding | ACS | Platform |
+|---|---------|-----|----------|
+| 001 | Narrative Context Injection bypasses keyword filter | ACS-T-INJECT-HIGH | Gandalf L5 |
+| 002 | Same prompt defeats AI guardrail intent classifier | ACS-CO-INJECT-CRIT | Gandalf L6 |
+| 003 | Binary property extraction bypasses self-correction | ACS-CO-CHAIN-HIGH | Gandalf L7 |
+| 004 | Defense layer architecture: L5→L6→L7 progression | Analysis | Gandalf |
+| 005 | Principal:* S3 as AI agent injection surface | ACS-P-INJECT-CRIT | BigIAM L1 |
+
+## Key Literature
+
+- Greshake et al. (2023). Indirect Prompt Injection. arXiv:2302.12173
+- Russinovich et al. (2024). Crescendo Multi-Turn Jailbreak. arXiv:2404.01833
+- Zhan et al. (2024). InjecAgent. arXiv:2403.02691
+
+## Contact
+
+LinkedIn: satyamGenSys 
